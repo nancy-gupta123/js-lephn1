@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+    <script type="module" src="index.js"></script>
+    <style > 
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      color: black;
+      background-color: white;
+    }
+    
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem;
+      gap: 0.5rem;
+      border-bottom: solid 1px #aaa;
+      background-color: #eee;
+    }
+    nav a{
+      display:inline-block;
+      border:1px solid black;
+      padding:8px 30px;
+      justify-content:center;
+      align-items:center;
+      border-radius:5px;
+    }
+    nav a[aria-current='page'] {
+  color: #000;
+  background-color: #d4d4d4;
+}
+
+.button{
+  display:inline-block;
+  justify-content:center;
+  align-items:center;
+}
+#grey{
+  
+  border:2px solid black;
+  padding:10px;
+  height:100px;
+  width:100px;
+  
+  margin:4px;
+  background-color:grey;
+  
+  
+}
+#pink{
+  
+  border:2px solid black;
+  height:100px;
+  width:100px;
+  padding:10px;
+  margin:4px;
+  background-color:pink;
+}
+#blue{
+  border:2px solid black;
+  height:100px;
+  width:100px;
+  padding:10px;
+  margin:4px;
+  background-color:blue;
+}
+#white{
+  border:2px solid black;
+  height:100px;
+  width:100px;
+  padding:10px;
+  margin:4px;
+  background-color:white;
+}
+h1{
+ text-align:center;
+}
+h2{
+  text-align:center;
+}
+    </style>
+</head>
+<body style="background-color: skyblue
+; color: black">
+  <nav>
+    <a href="/" aria-current="page">Home</a>
+    <a target="_blank" href="https://www.youtube.com/@chaiaurcode"
+      >Youtube channel</a
+    >
+  </nav>
+ <div class="canvas">
+   <h1>color Scheme Switcher</h1>
+   <span class="button" id="grey"></span>
+   <span class="button" id="pink"></span>
+   <span class="button" id="blue"></span>
+   <span class="button" id="white"></span>
+   <h2>Try clicking on one of the colors above </span>to change the background color of this page!</span>
+   </h2>
+  </div>
+  <script src="chaiaurcode.js">
+  
+  
+  </script>
+</body>
+</html>
